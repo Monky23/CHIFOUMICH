@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color: #574850;
+}
+h1{
+    font-size: 8vh;
+}
+h1, h2{
+    text-align: center;
+    color: #ffffff;
+}
+#jeu{
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 30px;
+    padding: 80px;
+    border: solid #0e0b3b 3px;
+    border-radius: 60%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url(../img/rock-paper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+button{
+    color: #d4b5d2;
+    height: 50px;
+    background-color: #574850;
+    font-size: 30px;
+    margin: 5px;
+}
+.resultat{
+    font-size: 44px;
+    color: #0e0b3b;
+    font-weight: bold;
+}
+article{
+    width: 60%;
+}
+ul, article{
+    text-align: center;
+    margin: auto;
+    font-size: 21px;
+    color: #ffffff; 
+}
+li{
+    list-style: none;
+}
+#scoreJ, #scoreO{
+    font-size: 34px;
+    background-color: #574850;
+    width: 16vw;
+    margin: auto;
+    color: #d4b5d2;
+}
