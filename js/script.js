@@ -13,16 +13,16 @@ for (let i = 0; i < buttons.length; i++) {
     //Les règles du jeu
         if (joueur === robot) {
             resultat = "Egalité";
-            scoreJoueur = scoreJoueur++;
-            scoreOrdi = scoreOrdi++;
+            scoreJoueur += 1;
+            scoreOrdi += 1;
         }
         else if ((joueur === stone && robot === cisor) || (joueur === leaf && robot === stone) || (joueur === cisor && robot === leaf)) {
             resultat = "Gagné";
-            scoreJoueur = scoreJoueur+2;
+            scoreJoueur += 2;
         }
         else {
             resultat = "Perdu";
-            scoreOrdi=scoreOrdi+2;
+            scoreOrdi += 2;
         }
     //afficher le cumul de point
         document.querySelector("#scoreJ").innerHTML = `Score joueur: ${scoreJoueur}`;
